@@ -1,0 +1,7 @@
+{
+  "name": "ExamenTAP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
