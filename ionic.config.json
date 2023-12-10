@@ -1,7 +1,7 @@
 {
-  "name": "ExamenTAP",
+  "name": "examen-movil",
   "integrations": {
     "capacitor": {}
   },
-  "type": "angular"
+  "type": "angular-standalone"
 }
