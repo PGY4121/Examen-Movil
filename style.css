@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    color: white;
+}
+
+.testimonios {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.testimonios h2 {
+    margin-bottom: 15px;
+}
+
+.qr-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    max-width: 300px;
+    margin: 0 auto;
+
+}
+
+#qrcode {
+    margin: 0 auto;
+}
+
+.download-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#download-button{
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .qr-code {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .download-button {
+        display: none;
+    }
+}

@@ -1,7 +1,0 @@
-{
-  "name": "examen-movil",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular-standalone"
-}
