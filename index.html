@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DuocTAP: Revolucionando la Asistencia en Duoc UC</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,9 +17,9 @@
     </header>
 
     <section class="my-5 text-center">
-        <img class="logo" src="logo-light.svg" alt="Imagen Principal" class="img-fluid">
+        <img id="logo" src="logo-light.svg" alt="Imagen Principal">
         <div class="qr-container">
-            <h5 class="h2 m-5">¡Descarga la aplicación ya!</h5>
+            <h5 class="h1 m-5">¡Descarga la aplicación ya!</h5>
             <div id="qrcode" style="display: none;"></div>
         </div>
         <div class="download-container">
@@ -29,24 +29,34 @@
 
     <section class="container my-5">
         <div class="row">
-            <div class="col-md-4">
-                <h3>Registro de asistencia rápido y seguro</h3>
+            <div class="col-md-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#012C56" class="bi bi-1-circle m-2" viewBox="0 0 16 16">
+                    <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+                  </svg>
+                <h2>Registro de asistencia rápido y seguro</h2>
             </div>
-            <div class="col-md-4">
-                <h3>Interfaz intuitiva para estudiantes y docentes</h3>
+            <div class="col-md-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#012C56" class="bi bi-2-circle m-2" viewBox="0 0 16 16">
+                    <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306Z"/>
+                  </svg>
+                <h2>Interfaz intuitiva para estudiantes y docentes</h2>
             </div>
-            <div class="col-md-4">
-                <h3>Historial completo de asistencias y ausencias</h3>
+            <div class="col-md-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-3-circle m-2" viewBox="0 0 16 16">
+                    <path d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318Z"/>
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8"/>
+                  </svg>
+                <h2>Historial completo de asistencias y ausencias</h2>
             </div>
         </div>
     </section>
 
-    <section class="testimonios bg-light p-4">
-        <div class="container">
-            <h2>Testimonios</h2>
-            <p>Estudiante Juan Pérez: "La app ha simplificado mucho el registro de asistencia".</p>
-            <p>Estudiante Ana García: "Es muy intuitiva y fácil de usar".</p>
-            <p>Docente Carlos López: "Ha mejorado la eficiencia en la toma de asistencias".</p>
+    <section class="testimonios bg-light p-4 text-center">
+        <h2>Testimonios</h2>
+        <div class="wrapper">
+            <p>"Tras probar DuocTAP, me sorprendió su eficiencia, como la agilidad de Bronya en Honkai Star Rail." Gonzalo Ulloa</p>
+            <p>"Ta bien..." David Mallma</p>
+            <p>"Probé DuocTAP y fue masacre. ¡Inesperadamente genial, como descubrir esta app saboreo una cerveza!". Felipe Iturrieta</p>
         </div>
     </section>
 

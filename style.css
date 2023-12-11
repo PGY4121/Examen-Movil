@@ -23,14 +23,13 @@ header, footer {
     align-items: center;
 }
 
-.logo{
-    max-width: 300px;
-    margin: 0 auto;
-
+#logo{
+    width: 45%;
+    max-width: 600px;
 }
 
 #qrcode {
-    margin: 0 auto;
+    width: 50%;
 }
 
 .download-container {
@@ -43,6 +42,21 @@ header, footer {
 
 #download-button{
     margin: 0 auto;
+}
+
+.container p{
+    font-size: 1.5rem;
+}
+
+.wrapper{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper p {
+    width: 30%;
 }
 
 @media screen and (max-width: 768px) {
